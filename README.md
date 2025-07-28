@@ -32,16 +32,15 @@ docker pull skuldgerry/dc-bot:1.1.0
 ```
 
 ```yaml
-version: '3'
 services:
-discord-bot:
-image: skuldgerry/dc-bot:1.1.0
-container_name: DC-BOT
-environment:
-BOT_TOKEN=your_bot_token_here
-volumes:
-./config:/app/config
-restart: unless-stopped
+   discord-bot:
+      image: skuldgerry/dc-bot:1.1.0
+      restart: unless-stopped
+      container_name: DC-BOT
+      environment:
+         - BOT_TOKEN=your_bot_token_here
+      volumes:
+         - ./config:/app/config
 ```
 
 
