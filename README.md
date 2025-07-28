@@ -78,10 +78,6 @@ The bot stores its configuration in the `config` directory, which is persisted t
 - settings.json: Bot settings, kick message, log channel
 - whitelist.json: List of whitelisted users
 
-## Support
-
-For issues or suggestions, please open an issue on GitHub.
-
 ## Built With AI
 
 This bot was developed with the assistance of OpenAI's AI technology. From implementing modern Discord features to solving specific challenges in the code, AI played a significant role in the development of this bot.
